@@ -4,8 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
-pysmb = "*"
+pandas = "==1.2.4"
+pysmb = "==1.2.6"
+splunk-handler = "==2.2.2"
 
 [dev-packages]
 
