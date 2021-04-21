@@ -63,7 +63,7 @@ def configure_logger():
                 "level": log_level,
                 "propagate": False
             },
-            "pip-mmmf": { # For "custom-logger"
+            "custom-logger": { # For "custom-logger"
                 "handlers": log_handler,
                 "level": log_level,
                 "propagate": False
